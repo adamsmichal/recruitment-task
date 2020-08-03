@@ -1,0 +1,17 @@
+{
+    "name": "michal/aurora",
+    "authors": [
+        {
+            "name": "Michal Adamski",
+            "email": "adamsmichal@wp.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "blog\\": "src/"
+        }
+    },
+    "require": {
+      "ext-pdo": "*"
+    }
+}
